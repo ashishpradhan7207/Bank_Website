@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Bank Name</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/logo.png" alt="Bank Logo" id="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="login.html" class="btn">Login</a>
+        </nav>
+    </header>
+
+    <section class="form-container">
+        <h2>Create a New Account</h2>
+        <form action="dashboard.html" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit" class="btn-primary">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Berojgar Bank. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
