@@ -10,7 +10,6 @@ This is a full-stack bank website project built with HTML, CSS, JavaScript for t
 - [Environment Variables](#environment-variables)
 - [Running the Project](#running-the-project)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -112,23 +111,7 @@ POST /api/auth/register: Register a new user.
 POST /api/auth/login: Login a user and return a JWT token.
 GET /api/users: Get information about the authenticated user.
 POST /api/contact: Submit a contact form.
-Contributing
-If you'd like to contribute to this project, please follow these steps:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Open a pull request.
-Please ensure your code follows the existing style and conventions.
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-### How to Use This `README.md`
-
-1. Replace `"your-username"` with your GitHub username.
-2. Add your MongoDB connection string and JWT secret key in the environment variables section.
-3. Add any additional details about your project or dependencies if needed.
-4. Update the license section if you're using a different license.
